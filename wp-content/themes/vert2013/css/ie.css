@@ -1,0 +1,123 @@
+/*
+Styles for older IE versions (previous to IE9).
+*/
+
+
+
+.genericon:before:hover,
+.menu-toggle:after:hover,
+.date a:before:hover,
+.entry-meta .author a:before:hover,
+.format-audio .entry-content:before:hover,
+.comments-link a:before:hover,
+.tags-links a:first-child:before:hover,
+.categories-links a:first-child:before:hover,
+.edit-link > a:before:hover,
+.attachment-meta:before:hover,
+.attachment-meta a:before:hover,
+.comment-awaiting-moderation:before:hover,
+.comment-reply-link:before:hover,
+.comment-reply-title small a:before:hover,
+.bypostauthor > .comment-body .fn:before:hover {
+	text-decoration: none;
+}
+
+.nav-menu .sub-menu ul,
+.nav-menu .children ul {
+	top: 100%;
+}
+
+.site-header .home-link {
+	max-height: 1040px;
+}
+
+.site-header .search-form [type="search"],
+.site-header .search-form [type="text"] {
+	padding-left: 6px;
+}
+
+img.alignright {
+	margin-bottom: 0;
+}
+
+img.alignleft {
+	margin-top: 0;
+}
+
+.site-main .sidebar-inner {
+	height: 1040px;
+}
+
+.site-main .widget-area {
+	margin-bottom: 60px;
+}
+
+.format-image .entry-content .size-full {
+	margin: 0;
+	max-height: 604px;
+}
+
+.gallery-columns-1 .gallery-item,
+.gallery-columns-2 .gallery-item,
+.gallery-columns-3 .gallery-item {
+	max-height: none;
+}
+
+.gallery img {
+	height: auto;
+}
+
+.gallery-caption {
+	background: #000;
+	filter: alpha(opacity=0);
+}
+
+.gallery-item:hover .gallery-caption {
+	filter: alpha(opacity=70);
+}
+
+.comment {
+	clear: both;
+}
+
+.comment-meta,
+.comment-content,
+.comment-list .reply {
+	height: 480px;
+}
+
+.depth-2 .comment-meta,
+.depth-2 .comment-content,
+.comment-list .depth-2 .reply {
+	height: 460px;
+}
+
+.depth-3 .comment-meta,
+.depth-3 .comment-content,
+.comment-list .depth-3 .reply {
+	height: 440px;
+}
+
+.depth-4 .comment-meta,
+.depth-4 .comment-content,
+.comment-list .depth-4 .reply {
+	height: 420px;
+}
+
+.depth-5 .comment-meta,
+.depth-5 .comment-content,
+.comment-list .depth-5 .reply {
+	height: 400px;
+}
+
+.comment-meta {
+	margin-right: 0;
+}
+
+.widget {
+	background: #f7f5e7;
+}
+
+.site-footer .widget {
+	background: none;
+}

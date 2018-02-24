@@ -1,0 +1,122 @@
+/*
+Press This TinyMCE editor styles :)
+*/
+
+
+/**
+* Links
+*/
+a {
+	color: #0073aa;
+}
+
+a:visited {
+	color: #0073aa;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #00a0d2;
+}
+
+
+/**
+* Lists
+*/
+ul,
+ol {
+	margin: 3em 1.5em 0 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-right: 0;
+	margin-top: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 1.5em 1.5em 1.5em 0;
+}
+
+
+/**
+* Media
+*
+* Basic image and object styles
+*/
+img {
+	max-height: 100%;
+	width: auto;
+}
+
+/* Makes sure embeds and iframes fit inside their containers */
+embed,
+iframe,
+object {
+	max-height: 100%;
+}
+
+
+/**
+* TinyMCE styles
+*
+* Pretty dang good.
+*/
+body {
+	color: #404040;
+	font-family: urga, "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+@media (max-height: 900px) {
+	body#tinymce {
+		padding-left: 30px !important;
+	}
+}
+@media (max-height: 640px) {
+	body {
+		font-size: 16px;
+	}
+}
+@media (max-height: 320px) {
+	body {
+		margin: 15px 0;
+	}
+}
+
+#tinymce b,
+#tinymce strong {
+	/* overrides TinyMCE's !important. Woohoo. */
+	font-weight: 700 !important;
+}
+
+blockquote {
+	margin: 1.5em 1em;
+	color: #9ea7af;
+	font-size: em(25px);
+	font-style: italic;
+}
+@media (max-height: 900px) {
+	blockquote {
+		margin: 1em 1.5em;
+	}
+}
+
+ul,
+ol {
+	margin: .75em 1.5em 0 0;
+}

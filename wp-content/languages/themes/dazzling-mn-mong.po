@@ -1,0 +1,606 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dazzling Theme mongolian\n"
+"POT-Creation-Date: 2015-12-13 13:58+0800\n"
+"PO-Revision-Date: 2015-12-13 14:03+0800\n"
+"Last-Translator: Itegel <itegel@hotamil.com>\n"
+"Language-Team: Itegel <itegel@hotmail.com>\n"
+"Language: mn-mong\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;_n;_n:1,2;esc_attr__;esc_attr_x;"
+"_nx:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../dazzling\n"
+
+#: ../../dazzling/archive.php:26
+#, php-format
+msgid "Author: %s"
+msgstr "ᠵᠣᠬᠢᠶᠠᠭᠴᠢ᠄ %s"
+
+#: ../../dazzling/archive.php:29
+#, php-format
+msgid "Day: %s"
+msgstr "ᠡᠳᠦᠷ᠄ %s"
+
+#: ../../dazzling/archive.php:32
+#, php-format
+msgid "Month: %s"
+msgstr "ᠰᠠᠷ᠎ᠠ᠄ %s"
+
+#: ../../dazzling/archive.php:35
+#, php-format
+msgid "Year: %s"
+msgstr "ᠵᠢᠯ᠄ %s"
+
+#: ../../dazzling/archive.php:38
+msgid "Asides"
+msgstr "ᠬᠠᠵᠠᠭᠤ"
+
+#: ../../dazzling/archive.php:41
+msgid "Galleries"
+msgstr "ᠴᠣᠮᠣᠭ ᠤᠳ"
+
+#: ../../dazzling/archive.php:44
+msgid "Images"
+msgstr "ᠵᠢᠷᠤᠭ"
+
+#: ../../dazzling/archive.php:47
+msgid "Videos"
+msgstr "ᠸᠢᠳᠢᠤ᠋ ᠤᠳ"
+
+#: ../../dazzling/archive.php:50
+msgid "Quotes"
+msgstr "ᠡᠰᠢᠯᠡᠬᠦ"
+
+#: ../../dazzling/archive.php:53
+msgid "Links"
+msgstr "ᠬᠣᠯᠪᠤᠭᠠᠰᠤ"
+
+#: ../../dazzling/archive.php:56
+msgid "Statuses"
+msgstr "ᠪᠠᠢᠳᠠᠯ"
+
+#: ../../dazzling/archive.php:59
+msgid "Audios"
+msgstr "ᠳᠠᠭᠤ"
+
+#: ../../dazzling/archive.php:62
+msgid "Chats"
+msgstr "ᠵᠣᠭᠤᠭ"
+
+#: ../../dazzling/archive.php:65 ../../dazzling/sidebar.php:17
+msgid "Archives"
+msgstr "ᠠᠷᠬᠢᠸ"
+
+#: ../../dazzling/header.php:27
+msgid "Toggle navigation"
+msgstr "ᠨᠠᠪᠢ ᠶᠢ ᠰᠡᠯᠪᠢᠬᠦ"
+
+#: ../../dazzling/functions.php:59
+msgid "Primary Menu"
+msgstr "ᠭᠣᠣᠯ ᠲᠣᠪᠶᠣᠭ"
+
+#: ../../dazzling/functions.php:60 ../../dazzling/inc/extras.php:145
+msgid "Footer Links"
+msgstr "ᠰᠡᠭᠦᠯ ᠦᠨ ᠬᠣᠯᠪᠣᠭᠠᠰᠤ"
+
+#: ../../dazzling/functions.php:88
+msgid "Sidebar"
+msgstr "ᠳᠠᠯᠪᠠᠭᠠ"
+
+#: ../../dazzling/functions.php:97
+msgid "Homepage Widget 1"
+msgstr "ᠨᠢᠭᠤᠷ ᠬᠠᠭᠤᠳᠠᠰᠤᠨ ᠸᠢᠵᠢᠲ ᠑"
+
+#: ../../dazzling/functions.php:98 ../../dazzling/functions.php:108
+#: ../../dazzling/functions.php:118
+msgid "Displays on the Home Page"
+msgstr "ᠨᠢᠭᠤᠷ ᠬᠠᠭᠤᠳᠠᠰᠤᠨ ᠳᠤ ᠢᠯᠡᠷᠡᠭᠦᠯᠬᠦ"
+
+#: ../../dazzling/functions.php:107
+msgid "Homepage Widget 2"
+msgstr "ᠨᠢᠭᠤᠷ ᠬᠠᠭᠤᠳᠠᠰᠤᠨ ᠸᠢᠵᠢᠲ ᠒"
+
+#: ../../dazzling/functions.php:117
+msgid "Homepage Widget 3"
+msgstr "ᠨᠢᠭᠤᠷ ᠬᠠᠭᠤᠳᠠᠰᠤᠨ ᠸᠢᠵᠢᠲ ᠓"
+
+#: ../../dazzling/functions.php:127
+msgid "Footer Widget 1"
+msgstr "ᠰᠡᠭᠦᠯ ᠳ᠋ᠡᠬᠢ ᠸᠢᠵᠢᠲ ᠑"
+
+#: ../../dazzling/functions.php:128 ../../dazzling/functions.php:138
+#: ../../dazzling/functions.php:148
+msgid "Used for footer widget area"
+msgstr ""
+
+#: ../../dazzling/functions.php:137
+msgid "Footer Widget 2"
+msgstr "ᠰᠡᠭᠦᠯ ᠳ᠋ᠡᠬᠢ ᠸᠢᠵᠢᠲ ᠒"
+
+#: ../../dazzling/functions.php:147
+msgid "Footer Widget 3"
+msgstr "ᠰᠡᠭᠦᠯ ᠳ᠋ᠡᠬᠢ ᠸᠢᠵᠢᠲ ᠓"
+
+#: ../../dazzling/functions.php:322
+msgid "Name"
+msgstr "ᠨᠡᠷ᠎ᠡ"
+
+#: ../../dazzling/functions.php:324
+msgid "Email"
+msgstr "ᠮᠠᠢᠯ"
+
+#: ../../dazzling/functions.php:326
+msgid "Website"
+msgstr "ᠰᠦᠯᠵᠢᠶᠡᠨ ᠥᠷᠲᠡᠭᠡ"
+
+#: ../../dazzling/content-none.php:13
+msgid "Nothing Found"
+msgstr "ᠣᠯᠳᠠᠭᠰᠠᠨ ᠦᠭᠡᠢ"
+
+#: ../../dazzling/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../../dazzling/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../../dazzling/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../../dazzling/sidebar.php:24
+msgid "Meta"
+msgstr "Meta (ᠮᠠᠲᠠ)"
+
+#: ../../dazzling/content-page.php:18 ../../dazzling/image.php:81
+#: ../../dazzling/content-single.php:23 ../../dazzling/content.php:61
+msgid "Pages:"
+msgstr "ᠬᠠᠭᠤᠳᠠᠰᠤ᠄"
+
+#: ../../dazzling/content-page.php:29 ../../dazzling/content-single.php:67
+#: ../../dazzling/content.php:30 ../../dazzling/inc/template-tags.php:81
+#: ../../dazzling/inc/template-tags.php:100
+msgid "Edit"
+msgstr "ᠵᠠᠰᠠᠪᠤᠷᠢᠯᠠᠬᠤ"
+
+#: ../../dazzling/comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../dazzling/comments.php:35 ../../dazzling/comments.php:59
+msgid "Comment navigation"
+msgstr "ᠰᠡᠳᠬᠢᠭᠳᠡᠯ ᠦᠨ ᠨᠠᠪᠢ"
+
+#: ../../dazzling/comments.php:36 ../../dazzling/comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&laquo; ᠬᠠᠭᠤᠴᠢᠪᠲᠤᠷ ᠰᠡᠳᠬᠢᠭᠳᠡᠯ"
+
+#: ../../dazzling/comments.php:37 ../../dazzling/comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "ᠰᠢᠨᠡᠪᠲᠦᠷ ᠰᠡᠳᠬᠢᠭᠳᠡᠯ &raquo;"
+
+#: ../../dazzling/comments.php:71
+msgid "Comments are closed."
+msgstr "ᠰᠡᠳᠬᠢᠭᠳᠡᠯ ᠢ ᠬᠠᠭᠠᠪᠠ᠃"
+
+#: ../../dazzling/image.php:24
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr ""
+
+#: ../../dazzling/image.php:25
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: ../../dazzling/404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ᠠᠢ᠂ ᠡᠢᠮᠦ ᠬᠠᠭᠤᠳᠠᠰᠤ ᠦᠯᠦ ᠣᠯᠳᠠᠮᠤᠢ︕"
+
+#: ../../dazzling/404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"ᠡᠨᠡ ᠪᠠᠢᠳᠠᠯ ᠳᠤᠷ ᠶᠠᠮᠪᠠᠷ ᠶᠠᠭᠤᠮ᠎ᠠ ᠴᠤ ᠡᠰᠡ ᠣᠷᠣᠰᠢᠬᠤ ᠮᠠᠭᠠ᠃ ᠳᠠᠷᠠᠭᠠᠴᠢ ᠡᠳᠡᠭᠡᠷ "
+"ᠬᠣᠯᠪᠣᠭᠠᠰᠤᠳ ᠠᠴᠠ ᠲᠤᠷᠰᠢᠨ ᠦᠵᠡᠨ᠎ᠡ ᠬᠦ  ᠡᠰᠡᠬᠦᠯ᠎ᠡ ᠬᠠᠢᠬᠤ︖"
+
+#: ../../dazzling/404.php:26
+msgid "Most Used Categories"
+msgstr "ᠮᠠᠰᠢ ᠬᠡᠷᠡᠭᠯᠡᠭᠳᠡᠵᠦᠬᠦᠢ ᠠᠢᠮᠠᠭᠯᠠᠰ ᠄︶"
+
+#: ../../dazzling/404.php:43
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "ᠰᠠᠷ᠎ᠠ ᠶᠢᠨ ᠡᠮᠬᠢᠳᠬᠡᠯ ᠳᠦᠷ ᠬᠠᠢᠵᠤᠬᠤᠢ᠃ %1$s"
+
+#: ../../dazzling/search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr "ᠬᠠᠢᠯᠲᠠ ᠶᠢᠨ ᠦᠷ᠎ᠡ ᠳ᠋ᠦᠩ: %s"
+
+#: ../../dazzling/searchform.php:12
+msgid "Search..."
+msgstr "ᠬᠠᠢᠬᠤ᠁"
+
+#: ../../dazzling/content-single.php:36 ../../dazzling/content-single.php:39
+#: ../../dazzling/content.php:21
+msgid ", "
+msgstr "᠂ "
+
+#: ../../dazzling/content-single.php:44 ../../dazzling/content-single.php:46
+#: ../../dazzling/content-single.php:52 ../../dazzling/content-single.php:54
+msgid "permalink"
+msgstr "ᠣᠨᠤᠭᠠᠭᠰᠠᠨ ᠬᠣᠯᠪᠤᠭᠠᠰᠤ"
+
+#: ../../dazzling/content.php:15
+msgid "Leave a comment"
+msgstr "ᠰᠡᠳᠬᠢᠭᠳᠡᠯ ᠦᠯᠳᠡᠭᠡᠬᠦ"
+
+#: ../../dazzling/content.php:15
+msgid "1 Comment"
+msgstr "1 ᠰᠡᠳᠬᠢᠭᠳᠡᠯ"
+
+#: ../../dazzling/content.php:15
+msgid "% Comments"
+msgstr "% ᠰᠡᠳᠬᠢᠭᠳᠡᠯ"
+
+#: ../../dazzling/content.php:25
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: ../../dazzling/content.php:39 ../../dazzling/content.php:54
+msgid "Continue reading"
+msgstr "ᠦᠷᠭᠦᠯᠵᠢᠯᠡᠨ ᠤᠩᠰᠢᠬᠤ"
+
+#: ../../dazzling/inc/woo-setup.php:96
+msgid "View your shopping cart"
+msgstr "ᠬᠤᠳᠠᠯᠳᠤᠭᠠᠨ ᠤ ᠰᠠᠭᠰᠤ"
+
+#: ../../dazzling/inc/woo-setup.php:97
+msgid "Start shopping"
+msgstr "ᠶᠠᠭᠤᠮ᠎ᠠ ᠠᠪᠬᠤ"
+
+#: ../../dazzling/inc/woo-setup.php:101
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d  ᠵᠤᠷᠪᠤᠰ"
+
+#: ../../dazzling/inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "ᠵᠣᠬᠢᠶᠠᠯ ᠤᠳ ᠤᠨ ᠨᠠᠪᠢ (navi)"
+
+#: ../../dazzling/inc/template-tags.php:27
+msgid "<i class=\"fa fa-chevron-left\"></i> Older posts"
+msgstr ""
+
+#: ../../dazzling/inc/template-tags.php:31
+msgid "Newer posts <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: ../../dazzling/inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠨᠠᠪᠢ (navi)"
+
+#: ../../dazzling/inc/template-tags.php:81
+msgid "Pingback:"
+msgstr ""
+
+#: ../../dazzling/inc/template-tags.php:91
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">ᠬᠡᠯᠡᠭᠰᠡᠨ ᠨᠢ ᠄</span>"
+
+#: ../../dazzling/inc/template-tags.php:104
+msgid "Your comment is awaiting moderation."
+msgstr "ᠲᠠᠨ ᠤ ᠰᠡᠳᠬᠢᠭᠳᠡᠯ ᠳᠦ ᠵᠥᠪᠰᠢᠶᠡᠷᠡᠯ ᠬᠦᠯᠢᠶᠡᠵᠦ ᠪᠠᠢᠨ᠎ᠠ᠃"
+
+#: ../../dazzling/inc/customizer.php:38
+msgid "Dazzling Options"
+msgstr "ᠲᠣᠬᠢᠷᠠᠭᠤᠯᠭᠠᠳ"
+
+#: ../../dazzling/inc/customizer.php:39
+msgid "Panel to update dazzling theme options"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:45
+msgid "Slider options"
+msgstr "slide ᠲᠣᠬᠢᠷᠠᠭᠤᠯᠭ᠎ᠠ"
+
+#: ../../dazzling/inc/customizer.php:70
+msgid "Slider Category"
+msgstr "slide ᠠᠩᠭᠢᠯᠠᠯ"
+
+#: ../../dazzling/inc/customizer.php:73
+msgid "Select a category for the featured post slider"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:83
+msgid "Number of slide items"
+msgstr "ᠰᠣᠯᠢᠯᠴᠠᠭᠤᠷ ᠵᠢᠷᠤᠭ ᠤᠨ ᠳ᠋ᠤᠭᠠᠷ"
+
+#: ../../dazzling/inc/customizer.php:85
+msgid "Enter the number of slide items"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:90
+msgid "Layout options"
+msgstr "ᠦᠵᠡᠭᠦᠯᠭᠡ ᠶᠢᠨ ᠲᠣᠬᠢᠷᠠᠭᠤᠯᠭ᠎ᠠ"
+
+#: ../../dazzling/inc/customizer.php:102
+msgid "Website Layout Options"
+msgstr "ᠰᠠᠢᠲ ᠦᠨ ᠦᠵᠡᠭᠦᠯᠭᠡ ᠶᠢᠨ ᠲᠣᠬᠢᠷᠠᠭᠤᠯᠭ᠎ᠠ"
+
+#: ../../dazzling/inc/customizer.php:105
+msgid "Choose between different layout options to be used as default"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:115
+msgid "Element Color"
+msgstr "ᠡᠯᠧᠮᠧᠨ᠋ᠲ ᠥᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:116 ../../dazzling/inc/customizer.php:128
+#: ../../dazzling/inc/customizer.php:182 ../../dazzling/inc/customizer.php:192
+#: ../../dazzling/inc/customizer.php:202 ../../dazzling/inc/customizer.php:212
+#: ../../dazzling/inc/customizer.php:289 ../../dazzling/inc/customizer.php:299
+#: ../../dazzling/inc/customizer.php:316 ../../dazzling/inc/customizer.php:423
+#: ../../dazzling/inc/customizer.php:434
+msgid "Default used if no color is selected"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:127
+msgid "Element color on hover"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:135
+msgid "Action Button"
+msgstr "ᠡᠬᠢᠯᠡᠭᠦᠯᠬᠦ ᠳᠠᠷᠤᠪᠴᠢ"
+
+#: ../../dazzling/inc/customizer.php:145
+msgid "Call For Action Text"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:146
+msgid "Enter the text for call for action section"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:157
+msgid "Call For Action Button Title"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:159
+msgid "Enter the title for Call For Action button"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:169
+msgid "CFA button link"
+msgstr "CFA ᠳᠠᠷᠤᠪᠴᠢ ᠬᠣᠯᠪᠣᠭᠠᠰᠤ"
+
+#: ../../dazzling/inc/customizer.php:171
+msgid "Enter the link for Call For Action button"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:181
+msgid "Call For Action Text Color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:191
+msgid "Call For Action Background Color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:201
+msgid "Call For Action Button Border Color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:211
+msgid "Call For Action Button Text Color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:218
+msgid "Typography"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:237
+msgid "Main Body Text"
+msgstr "ᠭᠣᠣᠯ ᠪᠡᠶ᠎ᠡ ᠶᠢᠨ ᠪᠢᠴᠢᠪᠦᠷᠢ"
+
+#: ../../dazzling/inc/customizer.php:238
+msgid "Used in p tags"
+msgstr "p ᠲᠡᠮᠳᠡᠭᠯᠡᠭᠡ ᠳᠦ ᠬᠡᠷᠡᠭᠯᠡᠭᠳᠡᠭᠰᠡᠨ"
+
+#: ../../dazzling/inc/customizer.php:278
+msgid "Heading Color"
+msgstr "ᠲᠣᠯᠣᠭᠠᠢ ᠶᠢᠨ ᠦᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:279
+msgid "Color for all headings (h1-h6)"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:288
+msgid "Link Color"
+msgstr "ᠬᠣᠯᠪᠣᠭᠠᠰᠤ ᠶᠢᠨ ᠦᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:298
+msgid "Link:hover Color"
+msgstr "ᠬᠣᠯᠪᠣᠭᠠᠰᠤ ᠶᠢ ᠵᠢᠭᠠᠬᠤ ᠦᠶᠡᠰ ᠦᠨ ᠥᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:305
+msgid "Header"
+msgstr "ᠲᠣᠯᠤᠭᠠᠢ"
+
+#: ../../dazzling/inc/customizer.php:315
+msgid "Top nav background color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:325
+msgid "Top nav item color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:326
+msgid "Link color"
+msgstr "ᠬᠣᠯᠪᠣᠭᠠᠰᠤ ᠶᠢᠨ ᠦᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:336
+msgid "Top nav dropdown background color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:337
+msgid "Background of dropdown item hover color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:347
+msgid "Top nav dropdown item color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:348
+msgid "Dropdown item color"
+msgstr "ᠤᠨᠵᠢᠩ ᠪᠠᠭᠤᠬᠤ ᠳᠠᠷᠤᠪᠴᠢ ᠶᠢᠨ ᠦᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:354
+msgid "Footer"
+msgstr "ᠰᠡᠭᠦᠯ"
+
+#: ../../dazzling/inc/customizer.php:364
+msgid "Footer widget area background color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:374
+msgid "Footer background color"
+msgstr "ᠰᠡᠭᠦᠯ ᠦᠨ ᠳᠡᠪᠢᠰᠬᠡᠷ ᠵᠢᠷᠤᠭ"
+
+#: ../../dazzling/inc/customizer.php:384
+msgid "Footer text color"
+msgstr "ᠰᠡᠭᠦᠯ ᠦᠨ ᠦᠰᠦᠭ ᠦᠨ ᠥᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:394
+msgid "Footer link color"
+msgstr "ᠰᠡᠭᠦᠯ ᠦᠨ ᠬᠣᠯᠪᠣᠭᠠᠰᠤ ᠶᠢᠨ ᠥᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:404
+msgid "Footer information"
+msgstr "ᠰᠡᠭᠦᠯ ᠳ᠋ᠡᠬᠢ ᠮᠡᠳᠡᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:405
+msgid "Copyright text in footer"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:412
+msgid "Social"
+msgstr "ᠰᠦᠯᠵᠢᠶᠡᠨ ᠨᠡᠢᠭᠡᠮ"
+
+#: ../../dazzling/inc/customizer.php:422
+msgid "Social icon color"
+msgstr "ᠨᠡᠢᠭᠡᠮ ᠲᠡᠮᠳᠡᠭ ᠦᠨ ᠦᠩᠭᠡ"
+
+#: ../../dazzling/inc/customizer.php:433
+msgid "Social Icon:hover Color"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:444
+msgid "Footer Social Icons"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:445
+msgid "Check to show social icons in footer"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:452
+msgid "Other"
+msgstr "ᠪᠤᠰᠤᠳ"
+
+#: ../../dazzling/inc/customizer.php:462
+msgid "Custom CSS"
+msgstr "ᠬᠡᠷᠡᠭᠯᠡᠭᠴᠢ ᠶᠢᠨ CSS"
+
+#: ../../dazzling/inc/customizer.php:463
+msgid "Additional CSS"
+msgstr "ᠨᠡᠮᠡᠯᠲᠡ CSS"
+
+#: ../../dazzling/inc/customizer.php:470
+msgid "Support and Documentation"
+msgstr "ᠳᠡᠮᠵᠢᠯᠭᠡ ᠪᠠ ᠪᠢᠴᠢᠭ ᠮᠠᠲᠧᠷᠢᠶᠠᠯ"
+
+#: ../../dazzling/inc/customizer.php:639
+msgid ""
+"The best way to contact us with <b>support questions</b> and <b>bug reports</"
+"b> is via"
+msgstr ""
+
+#: ../../dazzling/inc/customizer.php:642
+msgid "Rate this Theme"
+msgstr "ᠡᠨᠡ ᠵᠠᠭᠪᠤᠷ ᠢ ᠦᠨᠡᠯᠡᠬᠦ"
+
+#: ../../dazzling/inc/metaboxes.php:16
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Blog Type Templates.)"
+msgstr ""
+
+#: ../../dazzling/inc/metaboxes.php:21
+msgid "Select layout for this specific Post only"
+msgstr ""
+
+#: ../../dazzling/inc/extras.php:71
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+"ᠡᠨᠡ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢ ᠨᠢᠭᠤᠴᠠ ᠦᠭᠡ ᠪᠡᠷ ᠬᠠᠮᠠᠭᠠᠯᠠᠵᠤ ᠪᠣᠢ᠃ ᠨᠢᠭᠤᠴᠠ ᠦᠭᠡ ᠶᠢ ᠣᠷᠤᠭᠤᠯᠵᠤ "
+"ᠦᠵᠡᠭᠡᠷᠡᠢ᠃"
+
+#: ../../dazzling/inc/extras.php:72
+msgid "Password:"
+msgstr "ᠨᠢᠭᠤᠴᠠ ᠦᠭᠡ᠄"
+
+#: ../../dazzling/inc/extras.php:75
+msgid "Submit"
+msgstr "ᠳᠡᠪᠰᠢᠭᠦᠯᠬᠦ"
+
+#: ../../dazzling/inc/extras.php:258
+#, php-format
+msgid "Theme by %1$s Powered by %2$s"
+msgstr "ᠲᠤᠰ ᠰᠠᠢᠲ %2$s ᠭᠡᠷᠡᠭᠯᠡᠵᠦ ᠪᠠᠢᠨ᠎ᠠ᠂ ᠵᠠᠭᠪᠣᠷ %1$s"
+
+#: ../../dazzling/inc/widgets/widget-popular-posts.php:13
+msgid "Displays tabbed list of popular posts, recent posts & comments"
+msgstr ""
+
+#: ../../dazzling/inc/widgets/widget-popular-posts.php:19
+msgid "Dazzling Popular Posts Widget"
+msgstr ""
+
+#: ../../dazzling/inc/widgets/widget-popular-posts.php:37
+msgid "Popular"
+msgstr "ᠬᠦᠷᠢᠶᠡᠯᠡᠯ ᠲᠠᠢ"
+
+#: ../../dazzling/inc/widgets/widget-popular-posts.php:38
+msgid "Recent"
+msgstr "ᠣᠳᠣᠬᠢ"
+
+#: ../../dazzling/inc/widgets/widget-popular-posts.php:115
+msgid "Anonymous"
+msgstr "ᠨᠡᠷ᠎ᠡ ᠨᠢᠭᠤᠴᠠ"
+
+#: ../../dazzling/inc/widgets/widget-popular-posts.php:115
+msgid "on"
+msgstr "ᠳ᠋ᠡᠬᠢ"
+
+#: ../../dazzling/inc/widgets/widget-popular-posts.php:156
+msgid "Number of posts to show"
+msgstr "ᠦᠵᠡᠭᠦᠯᠬᠦ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢᠨ ᠲᠣᠭᠠ᠄"

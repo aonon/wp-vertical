@@ -1,0 +1,186 @@
+/**
+ * Jigoshop Styling for Dazzling WordPress Theme
+ */
+
+/* Site content fix */
+.jigoshop .site-content {
+	height: auto;
+}
+
+@media (min-height: 768px) {
+	.jigoshop .site-content {
+		height: 750px;
+	}
+}
+
+@media (min-height: 992px){
+	.jigoshop .site-content {
+		height: 970px;
+	}
+}
+
+@media (min-height: 1200px) {
+	.jigoshop .site-content {
+		height: 1170px;
+	}
+}
+
+/* Buttons */
+.jigoshop .button, .jigoshop .button-alt, .jigoshop_cart .buttons a {
+	background-color: #1FA67A;
+	border-color: #1B926C;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+.jigoshop .button:hover, .jigoshop .button-alt:hover, .jigoshop_cart .buttons a:hover {
+	color: white !important;
+	background-color: #1b926c;
+}
+
+.jigoshop  #minus1, .jigoshop  #add1 {
+	border-radius: 0px;
+}
+
+.jigoshop  #minus1:hover, .jigoshop  #add1:hover {
+	background: #1FA67A;
+	border-radius: 0px;
+}
+
+.jigoshop li.product {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* List of products */
+.jigoshop ul.products {
+	padding: 0px !important;
+	margin: 0px;
+	float: none;
+	margin-left: 10px !important;
+}
+
+.jigoshop ul.products .product {
+	display: inline-table !important;
+	float: none;
+	margin-top: calc(16.6% - 77px);
+	margin-bottom: calc(16.6% - 77px);
+}
+
+/* Price tag */
+.jigoshop .price {
+	color: black!important;
+	font-size: 15px;
+}
+
+/* Onsale in list of products */
+.jigoshop span.onsale {
+	text-transform: uppercase !important;
+	background-color: #1b926c;
+	padding-right: 0px;
+	padding-left:0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0px !important;
+}
+
+/* Product is too high */
+.jigoshop div.hentry {
+	margin-left:10px !important;
+}
+
+/*Product image is too far to right*/
+.jigoshop div.product div.images a.zoom img {
+	margin-top: 0px;
+}
+
+/* Onsale was cut on the left */
+.jigoshop div.images span.onsale {
+	top:5px;
+	left: 10px;
+}
+
+/* Summary */
+.jigoshop div.summary {
+	float: none !important;
+	display: table-cell;
+	height: 100% !important;
+}
+
+/* Width of images div was set rigidly */
+.jigoshop div.images, div.thumbnails {
+	height:auto !important;
+	margin-bottom:30px;
+}
+
+/* Two thumbnails for every line */
+.jigoshop div.thumbnails > a:nth-child(odd) {
+	clear: left !important;
+}
+
+/* Rate box */
+.jigoshop .star-rating span {
+	background: none;
+}
+
+.jigoshop .pp_top {
+	left: 10px;
+}
+
+.jigoshop #commentform p.comment-form-comment label {
+	display: block;
+}
+
+.jigoshop .pp_close {
+	left: -22px;
+}
+.jigoshop .pp_content_container {
+	margin-right: -3px;
+	margin-left: -10px;
+}
+
+.jigoshop #respond {
+	padding-right: 0px;
+}
+
+/*Related products*/
+.jigoshop div.related ul.products li.product {
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+/* Inputs were not looking good*/
+.jigoshop input[type="text"] {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+/* Writting a comment */
+#commentform #comment {
+	height:90% !important;
+}
+
+/* Thumnails have -margin */
+.jigoshop .thumbnails {
+	margin-top: 0px;
+}
+
+@media (max-height: 700px) {
+	.jigoshop div.summary {
+		display: inline-block !important;
+	}
+}
+
+@media (max-height: 576px) {
+	.jigoshop ul.products li.product {
+		margin-top: calc(25% - 77px);
+		margin-bottom: calc(25% - 77px);
+	}
+}
+
+@media (max-height: 385px) {
+	.jigoshop ul.products li.product {
+		margin-top: calc(50% - 76px);
+		margin-bottom: calc(50% - 76px);
+	}
+}

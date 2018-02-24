@@ -1,0 +1,591 @@
+/* General Widgets Styles */
+
+.widget {
+	margin: auto 10px auto 0;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.widget-top {
+	font-size: 13px;
+	font-weight: 600;
+	background: #f7f7f7;
+}
+
+.widget-top a.widget-action,
+.widget-top a.widget-action:hover {
+	-webkit-box-shadow: undefined none ;
+	box-shadow: undefined none ;
+	outline: none;
+	text-decoration: none;
+}
+
+.widget-title h3,
+.widget-title h4 {
+	margin: 0;
+	padding: 15px;
+	font-size: 1em;
+	line-height: 1;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.widgets-holder-wrap .widget-inside {
+	border-left: none;
+	padding: 15px 15px 15px 1px;
+	line-height: 16px;
+}
+
+.in-widget-title,
+#widgets-right a.widget-control-edit,
+#available-widgets .widget-description {
+	color: #666;
+}
+
+.deleting .widget-title,
+.deleting .widget-top a.widget-action:after {
+	color: #a0a5aa;
+}
+
+/* Widget Dragging Helpers */
+.widget.ui-draggable-dragging {
+	min-height: 100%;
+}
+
+.widget.ui-sortable-helper {
+	opacity: 0.8;
+}
+
+.widget-placeholder {
+	border: 1px dashed #b4b9be;
+	margin: auto 10px auto 0;
+	width: 45px;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#widgets-right .widget-placeholder {
+	margin-left: 0;
+}
+
+#widgets-right .closed .widget-placeholder {
+	width: 0;
+	border: 0;
+	margin-left: -10px;
+}
+
+/* Widget Sidebars */
+.sidebar-name {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sidebar-name-arrow {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.js .sidebar-name {
+	cursor: pointer;
+}
+
+.sidebar-name h2,
+.sidebar-name h3 {
+	margin: 0;
+	padding: 10px 8px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.widgets-holder-wrap .description {
+	padding: 0 15px 0 0;
+	margin: 0;
+	font-style: normal;
+	color: #777;
+}
+
+#widgets-right .widgets-holder-wrap .description {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+/* Widgets 2-col Layout */
+div.widget-liquid-left {
+	margin: 0;
+	height: 38%;
+	float: left;
+}
+
+div.widget-liquid-right {
+	float: right;
+	height: 58%;
+}
+
+/* Widgets Left - Available Widgets */
+
+div#widgets-left {
+	padding-left: 12px;
+}
+
+div#widgets-left .closed .sidebar-name,
+div#widgets-left .inactive-sidebar.closed .sidebar-name {
+	margin-right: 10px;
+}
+
+div#widgets-left .sidebar-name h2,
+div#widgets-left .sidebar-name h3 {
+	padding: 0 10px;
+	margin: 0 0 10px 0;
+}
+
+#widgets-left .sidebar-name .sidebar-name-arrow:before {
+	padding: 9px;
+}
+
+#widgets-left #available-widgets,
+div#widgets-left .widget-holder {
+	background: transparent;
+	border: none;
+}
+
+#widgets-left .widgets-holder-wrap {
+	border: none;
+	-webkit-box-shadow: undefined none ;
+	box-shadow: undefined none ;
+}
+
+#available-widgets .widget-action {
+	display: none;
+}
+
+#available-widgets .widget {
+	margin: 0;
+}
+
+#available-widgets .widget:nth-child(odd) {
+	clear: both;
+}
+
+#available-widgets .widget .widget-description {
+	display: block;
+	padding: 15px 10px;
+	font-size: 12px;
+}
+
+#available-widgets #widget-list {
+	position: relative;
+}
+
+/* Inactive Sidebars */
+#widgets-left .inactive-sidebar {
+	clear: both;
+	height: 100%;
+	background: transparent;
+	padding: 0;
+	margin: 0 20px 0 0;
+	border: none;
+	-webkit-box-shadow: undefined none ;
+	box-shadow: undefined none ;
+}
+
+#widgets-left .inactive-sidebar.first {
+	margin-left: 40px;
+}
+
+/* Not sure what this is for... */
+div#widgets-left .inactive-sidebar .widget.expanded {
+	top: auto;
+}
+
+.widget-title-action {
+	float: right;
+	position: relative;
+}
+
+div#widgets-left .inactive-sidebar .widgets-sortables {
+	min-width: 42px;
+	padding: 0;
+	background: transparent;
+	margin: 0;
+	position: relative;
+}
+
+/* Widgets Right */
+
+div#widgets-right:after {
+	content: ".";
+	display: block;
+	width: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+div#widgets-right .sidebars-column-1,
+div#widgets-right .sidebars-column-2 {
+	max-height: 450px;
+}
+
+div#widgets-right .widgets-holder-wrap {
+	margin: 0 0 0 10px;
+}
+
+div#widgets-right .sidebar-description {
+	min-width: 20px;
+	margin-left: -5px;
+}
+
+div#widgets-right .sidebar-name h2,
+div#widgets-right .sidebar-name h3 {
+	padding: 7px 15px;
+}
+
+div#widgets-right .sidebar-name .sidebar-name-arrow:before {
+	left: 2px;
+}
+
+div#widgets-right .widget-top {
+	padding: 0;
+}
+
+div#widgets-right .widgets-sortables {
+	padding: 8px 0;
+	margin-right: 9px;
+	position: relative;
+	min-width: 123px;
+}
+
+div#widgets-right .closed .widgets-sortables {
+	min-width: 0;
+	margin-right: 0;
+}
+
+.sidebar-name .spinner,
+.remove-inactive-widgets .spinner {
+	float: none;
+	position: relative;
+	left: -2px;
+	margin: 5px -5px;
+}
+
+/* Dragging a widget over a closed sidebar */
+#widgets-right .widgets-holder-wrap.widget-hover {
+	border-color: #777;
+	-webkit-box-shadow: 1px 0 2px rgba(0,0,0,0.3);
+	box-shadow: 1px 0 2px rgba(0,0,0,0.3);
+}
+
+/* Accessibility Mode */
+.widgets_access #widgets-left .widget .widget-top {
+	cursor: auto;
+}
+
+.widgets_access #wpwrap .widgets-holder-wrap.closed .sidebar-description,
+.widgets_access #wpwrap .widgets-holder-wrap.closed .widget,
+.widgets_access #wpwrap .widget-control-edit {
+	display: block;
+}
+
+.widgets_access #widgets-left .widget .widget-top:hover,
+.widgets_access #widgets-right .widget .widget-top:hover {
+	border-color: #ddd;
+}
+
+#available-widgets .widget-control-edit .edit,
+#widgets-left .inactive-sidebar .widget-control-edit .add,
+#widgets-right .widget-control-edit .add {
+	display: none;
+}
+
+.widget-control-edit {
+	display: block;
+	color: #666;
+	background: #EEE;
+	padding: 15px 0;
+	line-height: 43px;
+	border-top: 1px solid #DDD;
+}
+
+#widgets-left .widget-control-edit:hover,
+#widgets-right .widget-control-edit:hover {
+	color: #fff;
+	background: #444;
+	border-top: 0;
+	outline: 1px solid #444;
+}
+
+.widgets-holder-wrap .sidebar-name,
+.widgets-holder-wrap .sidebar-description {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.editwidget {
+	margin: auto 0;
+}
+
+.editwidget .widget-inside {
+	display: block;
+	padding: 15px 0;
+}
+
+.editwidget .widget-control-actions {
+	margin-left: 20px;
+}
+
+.js .widgets-holder-wrap.closed .widget,
+.js .widgets-holder-wrap.closed .sidebar-description,
+.js .widgets-holder-wrap.closed .remove-inactive-widgets,
+.js .closed br.clear {
+	display: none;
+}
+
+.js .widgets-holder-wrap.closed .widget.ui-sortable-helper {
+	display: block;
+}
+
+/* Hide Widget Settings by Default */
+.widget-inside,
+.widget-description {
+	display: none;
+}
+
+.widget-inside {
+	background: #fff;
+}
+
+/* Dragging widgets over the available widget area show's a "Deactivate" message */
+#removing-widget {
+	display: none;
+	font-weight: normal;
+	padding-top: 15px;
+	font-size: 12px;
+	line-height: 1;
+	color: black;
+}
+
+.js #removing-widget {
+	color: #00a0d2;
+}
+
+.widget-control-noform,
+#access-off,
+.widgets_access .widget-action,
+.widgets_access .sidebar-name-arrow,
+.widgets_access #access-on,
+.widgets_access .widget-holder .description,
+.no-js .widget-holder .description {
+	display: none;
+}
+
+.widgets_access .widget-holder,
+.widgets_access #widget-list {
+	padding-left: 10px;
+}
+
+.widgets_access #access-off {
+	display: inline;
+}
+
+.widgets_access .sidebar-name,
+.widgets_access .widget .widget-top {
+	cursor: default;
+}
+
+
+/* Widgets Area Chooser */
+.widget-liquid-left #widgets-left.chooser #available-widgets .widget,
+.widget-liquid-left #widgets-left.chooser .inactive-sidebar {
+	-webkit-transition: opacity 0.1s linear;
+	transition: opacity 0.1s linear;
+}
+
+.widget-liquid-left #widgets-left.chooser #available-widgets .widget,
+.widget-liquid-left #widgets-left.chooser .inactive-sidebar {
+	/* -webkit-filter: blur(1px); */
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+.widget-liquid-left #widgets-left.chooser #available-widgets .widget-in-question {
+	/* -webkit-filter: none; */
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.widgets-chooser ul,
+#widgets-left .widget-in-question .widget-top,
+#available-widgets .widget-top:hover,
+div#widgets-right .widget-top:hover,
+#widgets-left .widget-top:hover {
+	border-color: #999;
+	-webkit-box-shadow: 1px 0 2px rgba(0,0,0,0.1);
+	box-shadow: 1px 0 2px rgba(0,0,0,0.1);
+}
+
+.widgets-chooser ul.widgets-chooser-sidebars {
+	margin: 0;
+	list-style-type: none;
+	max-width: 300px;
+	overflow: auto;
+}
+
+.widgets-chooser {
+	display: none;
+}
+
+.widgets-chooser ul {
+	border: 1px solid #ccc;
+}
+
+.widgets-chooser li {
+	padding: 35px 10px 15px 10px;
+	border-right: 1px solid #ccc;
+	background: #fff;
+	margin: 0;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	-webkit-transition: background 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
+}
+
+.widgets-chooser li:hover,
+.widgets-chooser li:focus {
+	background: rgba(255,255,255,0.7);
+}
+
+.widgets-chooser li:focus:before {
+	content: "\f147";
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 26px/1 dashicons;
+	color: #999;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+}
+
+.widgets-chooser li:last-child {
+	border: none;
+}
+
+.widgets-chooser li.widgets-chooser-selected {
+	background: #00a0d2;
+	color: #fff;
+}
+
+.widgets-chooser li.widgets-chooser-selected:before,
+.widgets-chooser li.widgets-chooser-selected:focus:before {
+	content: "\f147";
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 26px/1 dashicons;
+	color: #fff;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+}
+
+.widgets-chooser .widgets-chooser-actions {
+	padding: 0 12px 0 10px;
+	text-align: center;
+}
+
+.widgets-chooser button {
+	margin-bottom: 5px;
+}
+
+#available-widgets .widget .widget-top {
+	cursor: pointer;
+}
+
+#available-widgets .widget.ui-draggable-dragging .widget-top {
+	cursor: move;
+}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+
+@media screen and (max-height: 480px) {
+	div.widget-liquid-left {
+		height: 100%;
+		float: none;
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+	#widgets-left .sidebar-name {
+		margin-bottom: 0;
+	}
+
+	#widgets-left #available-widgets .widget-top {
+		margin-bottom: 0;
+	}
+
+	#widgets-left .inactive-sidebar .widgets-sortables {
+		margin-bottom: 0;
+	}
+
+	div.widget-liquid-right {
+		height: 100%;
+		float: none;
+	}
+
+	div.widget {
+		margin: auto 10px auto 0 !important;
+		max-height: 480px;
+	}
+}
+
+@media screen and (max-height: 320px) {
+	div.widget {
+		max-height: 320px;
+	}
+}
+
+@media only screen and (min-height: 1250px) {
+	#widgets-left #available-widgets .widget {
+		height: 49%;
+		float: left;
+	}
+
+	.widget.ui-draggable-dragging {
+		min-height: 49%;
+	}
+
+	#widgets-left #available-widgets .widget:nth-child(even) {
+		float: right;
+	}
+
+	#widgets-right .sidebars-column-1,
+	#widgets-right .sidebars-column-2 {
+		float: left;
+		height: 49%;
+	}
+
+	#widgets-right .sidebars-column-1 {
+		margin-bottom: 2%;
+	}
+
+	#widgets-right.single-sidebar .sidebars-column-1,
+	#widgets-right.single-sidebar .sidebars-column-2 {
+		float: none;
+		height: 100%;
+		margin: 0;
+	}
+}

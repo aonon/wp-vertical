@@ -1,0 +1,160 @@
+/*
+ * jQuery FlexSlider v2.5.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ * Modified by @ASilkalns
+ */
+
+/* Browser Resets
+*********************************/
+.flex-container a:hover,
+.flex-slider a:hover,
+.flex-container a:focus,
+.flex-slider a:focus {
+  outline: none;
+}
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+.flexslider .slides img {
+  height: 100%;
+  display: block;
+}
+.flexslider .slides:after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  width: 0;
+}
+html[xmlns] .flexslider .slides {
+  display: block;
+}
+* html .flexslider .slides {
+  width: 1%;
+}
+.no-js .flexslider .slides > li:first-child {
+  display: block;
+}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider { margin: 0; background: #fff; border: 4px solid #fff; position: relative; overflow: hidden; }
+.flex-viewport { max-width: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-width: 300px; }
+.flexslider .slides { zoom: 1; }
+.carousel li { margin-bottom: 5px; }
+
+/* Direction Nav */
+.flex-direction-nav {*width: 0;}
+.flex-direction-nav a  { text-decoration:none; display: block; height: 40px; width: 40px; margin: 0 0 0 -20px; position: absolute; left: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav .flex-prev { top: 50px; }
+.flex-direction-nav .flex-next { bottom: 50px; text-align: right; }
+.flexslider:hover .flex-prev { opacity: 0.7; top: 10px; }
+.flexslider:hover .flex-next { opacity: 0.7; bottom: 10px; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+.flex-direction-nav a:before  { font-family: FontAwesome; font-size: 40px; display: inline-block; content: '\f053'; }
+.flex-direction-nav a.flex-next:before  { content: '\f054'; }
+
+/* Control Nav */
+.flex-control-nav {height: 100%; position: absolute; right: -40px; text-align: center;}
+.flex-control-nav li {margin: 6px 0; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {height: 11px; width: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: 0 inset 0 3px rgba(0,0,0,0.3); -moz-box-shadow: 0 inset 0 3px rgba(0,0,0,0.3); -o-box-shadow: 0 inset 0 3px rgba(0,0,0,0.3); box-shadow: 0 inset 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+/* =FlexSlider
+----------------------------------------------- */
+
+.flexslider{
+  border: none;
+}
+.flexslider .slides img {
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  height: auto;
+}
+.flex-control-nav {
+  right: 20px;
+  z-index: 1000;
+}
+.flexslider .slides li {
+  position:relative;
+}
+.flex-caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  padding: 30px 0;
+  display: inline-block;
+  max-height: 1170px;
+  margin: auto;
+  right: 50px;
+}
+.flex-caption .excerpt {
+  background: rgb(59, 59, 59);
+  background: rgba(59, 59, 59, 0.8);
+  display: block;
+  color: #ddd;
+  max-height: 600px;
+  padding: 20px 12px;
+}
+.flex-caption h2 {
+  background: rgb(31, 166, 122);
+  background: rgba(31, 166, 122, 0.7);
+  font-weight: 400;
+  font-size: 24px;
+  max-height: 640px;
+  display: inline-block;
+  padding: 20px 12px;
+  margin-right: 0;
+  color: #fff;
+}
+.flex-control-nav  {
+  position: absolute;
+  display: inline-block;
+}
+.flex-direction-nav a {
+  width: 60px;
+  left: 45%;
+}
+@media (max-height: 768px) {
+  .flex-caption {
+    display: none;
+  }
+}
+.flex-control-nav {
+  z-index: 100;
+}
+@media screen and (max-height: 860px) {
+  .flex-direction-nav .flex-prev { opacity: 1; top: 10px;}
+  .flex-direction-nav .flex-next { opacity: 1; bottom: 10px;}
+}

@@ -1,0 +1,935 @@
+/* nav-menu */
+
+/* @todo: determine if this is truly for nav menus only */
+.no-js #message {
+	display: block;
+}
+
+ul.add-menu-item-tabs li {
+	padding: 8px 3px 5px 3px;
+}
+
+.accordion-section ul.category-tabs,
+.accordion-section ul.add-menu-item-tabs,
+.accordion-section ul.wp-tab-bar {
+	margin: 0;
+}
+
+.accordion-section .categorychecklist {
+	margin: 0 13px;
+}
+
+#nav-menu-meta .accordion-section-content {
+	padding: 13px 18px;
+}
+
+#nav-menu-meta .button-controls {
+	margin-right: 0;
+}
+
+#nav-menus-frame {
+	margin-top: 300px;
+	margin-left: 23px;
+}
+
+#wpbody-content #menu-settings-column {
+	display:inline;
+	height:281px;
+	margin-top: -300px;
+	clear: both;
+	float: left;
+	padding-left: 0;
+}
+
+#menu-settings-column .inside {
+	clear: both;
+	margin: 0 0 0 10px;
+}
+
+.metabox-holder-disabled .postbox,
+.metabox-holder-disabled .accordion-section-content,
+.metabox-holder-disabled .accordion-section-title {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.metabox-holder-disabled .button-controls .select-all {
+	display: none;
+}
+
+#wpbody {
+	position: relative;
+}
+
+.blank-slate .menu-name {
+	width: 2em;
+}
+
+.blank-slate .menu-settings {
+	border: none;
+	margin-left: 0;
+	padding-left: 0;
+	overflow: hidden;
+}
+
+.is-submenu {
+	color: #999;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 4px;
+}
+
+.manage-menus {
+	margin-left: 23px;
+	padding: 10px;
+	overflow: hidden;
+	background: #fbfbfb;
+}
+
+.manage-menus select {
+	float: left;
+	margin-bottom: 6px;
+}
+
+.manage-menus .selected-menu {
+	float: left;
+	margin: 0 0 6px 5px;
+}
+
+.manage-menus .submit-btn {
+	float: left;
+	margin-left: 1px;
+}
+
+.menu-edit #post-body-content h3 {
+	margin: 0 10px 0 1em;
+}
+
+.menu-settings {
+	border-left: 1px solid #eee;
+	margin-left: 2em;
+}
+
+.menu-settings dl {
+	margin: 0 10px 0 0;
+	overflow: hidden;
+	padding-top: 18%;
+}
+
+.menu-settings dd {
+	float: left;
+	margin: 0;
+	height: 100%;
+}
+
+.menu-settings dt {
+	float: left;
+	clear: both;
+	height: 21.951%;
+	padding: 0 0 0 3px;
+	margin-top: -21.951%;
+}
+
+.menu-settings label {
+	vertical-align: baseline;
+}
+
+.menu-edit .checkbox-input {
+	margin-left: 4px;
+}
+
+.theme-location-set {
+	color: #999;
+	font-size: 11px;
+}
+
+/* Menu Container */
+#menu-management-liquid {
+	float: left;
+	min-height: 100%;
+	margin-left: 3px;
+}
+
+#menu-management {
+	position: relative;
+	margin-bottom: 20px;
+	margin-left: -3px;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+#menu-management .menu-edit {
+	margin-right: 20px;
+}
+
+.nav-menus-php #post-body {
+	padding: 10px 10px 10px 0;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #dfdfdf;
+	background: #fff;
+}
+
+#nav-menu-header,
+#nav-menu-footer {
+	padding: 10px 0;
+}
+
+#nav-menu-header {
+	border-right: 1px solid #dfdfdf;
+	margin-right: 0;
+}
+
+#nav-menu-header .menu-name-label {
+	margin-left: 4px;
+}
+
+.nav-menus-php #post-body div.updated,
+.nav-menus-php #post-body div.error {
+	margin: 0;
+}
+
+.nav-menus-php #post-body-content {
+	position: relative;
+	float: none;
+}
+
+#menu-management .menu-add-new abbr {
+	font-weight:600;
+}
+
+#select-nav-menu-container {
+	text-align: right;
+	padding: 10px 3px 10px 0;
+	margin-right: 5px;
+}
+
+#select-nav-menu {
+	height: 100px;
+	display: inline;
+}
+
+#menu-name-label {
+	margin-left: -2px;
+}
+
+.widefat .menu-locations tr + tr td {
+	padding-left: 0;
+}
+
+.widefat .menu-locations td {
+	vertical-align: middle;
+}
+
+.menu-location-title label {
+	font-weight: bold;
+}
+
+.menu-location-menus select {
+	float: left;
+}
+
+#locations-nav-menu-wrapper {
+	padding: 0 5px;
+}
+
+.locations-nav-menu-select select {
+	float: left;
+	height: 160px;
+	margin-bottom: 5px;
+}
+
+.locations-row-links {
+	float: left;
+	margin: 6px 0 0 6px;
+}
+
+.locations-edit-menu-link,
+.locations-add-menu-link {
+	margin: 3px 0;
+}
+
+.locations-edit-menu-link {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ccc;
+}
+
+#wpbody .open-label {
+	display: block;
+	float:left;
+}
+
+#wpbody .open-label span {
+	padding-bottom: 10px;
+}
+
+.js .input-with-default-title {
+	color: #a0a5aa;
+	font-style: italic;
+}
+
+#menu-management .inside {
+	padding: 10px 0;
+}
+
+/* Add Menu Item Boxes */
+.postbox .howto input,
+.accordion-container .howto input {
+	height: 180px;
+    float: right;
+}
+
+.accordion-container .outer-border {
+	margin: 0;
+}
+
+.customlinkdiv .howto input {
+	height: 180px;
+}
+
+.customlinkdiv p {
+	margin-left: 0
+}
+
+#nav-menu-theme-locations .howto select {
+	height: 100%;
+}
+
+#nav-menu-theme-locations .button-controls {
+	text-align: right;
+}
+
+.add-menu-item-view-all {
+	width: 400px;
+}
+
+/* Button Primary Actions */
+#menu-container .submit {
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+.nav-menus-php .add-new-menu-action {
+	float: left;
+	margin: 6px 0 0 6px;
+	line-height: 15px;
+}
+
+.nav-menus-php .meta-sep,
+.nav-menus-php .submitdelete,
+.nav-menus-php .submitcancel {
+	display: block;
+	float: left;
+	margin: 0 6px;
+	line-height: 15px;
+}
+
+.meta-sep {
+	padding: 2px 0;
+}
+
+/* @todo: is this actually used? */
+#cancel-save {
+	text-decoration: overline;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.button.right, .button-secondary.right, .button-primary.right {
+	float: right;
+}
+
+/* Button Secondary Actions */
+.list-controls {
+	float: left;
+	margin-left: 5px;
+}
+
+.add-to-menu {
+	float: right;
+}
+
+.button-controls {
+	clear:both;
+	margin: 0 10px;
+}
+
+.show-all,
+.hide-all {
+	cursor: pointer;
+}
+
+.hide-all {
+	display: none;
+}
+
+/* Create Menu */
+#menu-name {
+	height: 270px;
+}
+
+#manage-menu .inside {
+	padding: 0px 0px;
+}
+
+/* Custom Links */
+#available-links dt {
+	display: block;
+}
+
+#add-custom-link .howto {
+	font-size: 12px;
+}
+
+#add-custom-link label span {
+	display: block;
+	float: left;
+	margin-left: 5px;
+	padding-bottom: 5px;
+}
+
+.menu-item-textbox {
+	height: 180px;
+}
+
+.nav-menus-php .howto span {
+	margin-left: 6px;
+	display: block;
+	float: left;
+}
+
+/* Menu item types */
+.quick-search {
+	height: 190px;
+}
+
+.quick-search-wrap .spinner {
+	float: none;
+	margin: 0 0 -10px -3px;
+}
+
+.nav-menus-php .list-wrap {
+	display: none;
+	clear: both;
+	margin-right: 10px;
+}
+
+.nav-menus-php .postbox p.submit {
+	margin-right: 0;
+}
+
+/* Listings */
+.nav-menus-php .list li {
+	display: none;
+	margin: 0;
+	margin-right: 5px;
+}
+
+.nav-menus-php .list li .menu-item-title {
+	cursor: pointer;
+	display: block;
+}
+
+.nav-menus-php .list li .menu-item-title input {
+	margin-bottom: 3px;
+	margin-left: -3px;
+}
+
+.menu-item-title input[type=checkbox] {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+/* Nav Menu */
+#menu-container .inside {
+	padding-right: 10px;
+}
+
+.menu {
+	padding-left:1em;
+}
+
+#menu-to-edit {
+	margin: 0;
+	padding: 0 0.1em;
+}
+
+.menu ul {
+	height: 100%;
+}
+
+.menu li {
+	margin-right: 0;
+	position:relative;
+}
+
+.menu-item-bar {
+	clear:both;
+	line-height:1.5em;
+	position:relative;
+	margin: 0 0 0 9px;
+}
+
+.menu-item-bar .menu-item-handle {
+	border: 1px solid #dfdfdf;
+	position: relative;
+	padding: 15px 10px;
+	width: auto;
+	min-width: 20px;
+	height: 382px;
+	line-height: 30px;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+.menu-item-bar .menu-item-handle:hover {
+	border-color: #999;
+}
+
+#menu-to-edit .menu-item-invalid .menu-item-handle {
+	background: #f6c9cc;
+	border-color: #f1acb1;
+}
+
+.no-js .menu-item-edit-active .item-edit {
+	display: none;
+}
+
+.js .menu-item-handle {
+	cursor: move;
+}
+
+.menu li.deleting .menu-item-handle {
+	background-image: none;
+	background-color: #f66;
+}
+
+.menu-item-handle .item-title {
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 20px;
+	display: block;
+	margin-bottom: 13em;
+}
+
+.menu-item-handle .menu-item-title.no-title {
+	color: #999;
+}
+
+/* Sortables */
+li.menu-item.ui-sortable-helper .menu-item-bar {
+	margin-left: 0;
+}
+
+li.menu-item.ui-sortable-helper .menu-item-transport .menu-item-bar {
+	margin-left: 13px;
+}
+
+.menu .sortable-placeholder {
+	width: 35px;
+	height: 410px;
+	margin-left: 13px;
+}
+
+/* Hide the transport list when it's empty */
+.menu-item .menu-item-transport:empty {
+	display: none;
+}
+
+/* WARNING: The factor of 30px is hardcoded into the nav-menus JavaScript. */
+.menu-item-depth-0 { margin-top: 0px; }
+.menu-item-depth-1 { margin-top: 30px; }
+.menu-item-depth-2 { margin-top: 60px; }
+.menu-item-depth-3 { margin-top: 90px; }
+.menu-item-depth-4 { margin-top: 120px; }
+.menu-item-depth-5 { margin-top: 150px; }
+.menu-item-depth-6 { margin-top: 180px; }
+.menu-item-depth-7 { margin-top: 210px; }
+.menu-item-depth-8 { margin-top: 240px; }
+.menu-item-depth-9 { margin-top: 270px; }
+.menu-item-depth-10 { margin-top: 300px; }
+.menu-item-depth-11 { margin-top: 330px; }
+
+.menu-item-depth-0 .menu-item-transport { margin-top: 0px; }
+.menu-item-depth-1 .menu-item-transport { margin-top: -30px; }
+.menu-item-depth-2 .menu-item-transport { margin-top: -60px; }
+.menu-item-depth-3 .menu-item-transport { margin-top: -90px; }
+.menu-item-depth-4 .menu-item-transport { margin-top: -120px; }
+.menu-item-depth-5 .menu-item-transport { margin-top: -150px; }
+.menu-item-depth-6 .menu-item-transport { margin-top: -180px; }
+.menu-item-depth-7 .menu-item-transport { margin-top: -210px; }
+.menu-item-depth-8 .menu-item-transport { margin-top: -240px; }
+.menu-item-depth-9 .menu-item-transport { margin-top: -270px; }
+.menu-item-depth-10 .menu-item-transport { margin-top: -300px; }
+.menu-item-depth-11 .menu-item-transport { margin-top: -330px; }
+
+body.menu-max-depth-0 { min-height: 950px !important; }
+body.menu-max-depth-1 { min-height: 980px !important; }
+body.menu-max-depth-2 { min-height: 1010px !important; }
+body.menu-max-depth-3 { min-height: 1040px !important; }
+body.menu-max-depth-4 { min-height: 1070px !important; }
+body.menu-max-depth-5 { min-height: 1100px !important; }
+body.menu-max-depth-6 { min-height: 1130px !important; }
+body.menu-max-depth-7 { min-height: 1160px !important; }
+body.menu-max-depth-8 { min-height: 1190px !important; }
+body.menu-max-depth-9 { min-height: 1220px !important; }
+body.menu-max-depth-10 { min-height: 1250px !important; }
+body.menu-max-depth-11 { min-height: 1280px !important; }
+
+/* Menu item controls */
+.item-type {
+	display: inline-block;
+	padding: 16px 12px;
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.item-controls {
+	font-size: 12px;
+	position: absolute;
+	bottom: 20px;
+	left: -1px;
+}
+
+.item-controls a {
+	text-decoration: none;
+}
+
+.item-controls a:hover {
+	cursor: pointer;
+}
+
+.item-controls .item-order {
+	padding-bottom: 10px;
+}
+
+.nav-menus-php .item-edit {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	display: block;
+	height: 30px;
+	width: 40px;
+	margin-bottom: 0 !important;
+	text-indent: 100%;
+	outline: none;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.nav-menus-php .item-edit:before {
+	margin-left: 10px;
+	margin-top: 4px;
+	height: 20px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-indent: -1px; /* account for the dashicon alignment */
+}
+
+.rtl .nav-menus-php .item-edit:before {
+	text-indent: 1px; /* account for the dashicon alignment */
+}
+
+.nav-menus-php .item-edit:focus {
+	-webkit-box-shadow: undefined none ;
+	box-shadow: undefined none ;
+}
+
+.nav-menus-php .item-edit:focus:before {
+	-webkit-box-shadow:
+    	0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, .8);
+    box-shadow:
+    	0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, .8);
+}
+
+/* Menu editing */
+.menu-instructions-inactive {
+	display: none;
+}
+
+.menu-item-settings {
+	display: block;
+	height: 402px;
+	padding: 10px 10px 0 10px;
+	position: relative;
+	z-index: 10; /* Keep .item-title's shadow from appearing on top of .menu-item-settings */
+	border: 1px solid #e5e5e5;
+	border-left: none;
+	-webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.04);
+	box-shadow: 1px 0 1px rgba(0,0,0,0.04);
+}
+
+.menu-item-settings .field-move a {
+	display: none;
+	margin: 2px 0;
+}
+
+.menu-item-edit-active .menu-item-settings {
+	display: block;
+}
+
+.menu-item-edit-inactive .menu-item-settings {
+	display: none;
+}
+
+.add-menu-item-pagelinks {
+	margin: auto .5em;
+	text-align: center;
+}
+
+.link-to-original {
+	display: block;
+	margin: 0 10px 0 0;
+	padding: 5px 5px 5px 3px;
+	border: 1px solid #dfdfdf;
+	color: #777;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.link-to-original a {
+	padding-top: 4px;
+	font-style: normal;
+}
+
+.hidden-field {
+	display: none;
+}
+
+.menu-item-settings .description-thin,
+.menu-item-settings .description-wide {
+	margin-bottom: 10px;
+	float: left;
+}
+
+.description-thin {
+	height: 190px;
+}
+
+.description-wide {
+	height: 390px;
+}
+
+.menu-item-actions {
+	padding-left: 15px;
+}
+
+#cancel-save {
+	cursor: pointer;
+}
+
+/* Major/minor publishing actions (classes) */
+.nav-menus-php .major-publishing-actions {
+	clear: both;
+	padding: 0 6px 0 3px;
+}
+
+.nav-menus-php .major-publishing-actions .publishing-action {
+	text-align: right;
+	float: right;
+	line-height: 23px;
+	margin: 0 1px 0 4px;
+}
+
+.nav-menus-php .blank-slate .menu-settings {
+	display: none;
+}
+
+.nav-menus-php .delete-action {
+	float: left;
+	margin-left: 2px;
+}
+
+.nav-menus-php .submitbox .submitcancel {
+	border-right: 1px solid #0073aa;
+	padding: 2px 1px;
+	color: #0073aa;
+	text-decoration: none;
+}
+
+.nav-menus-php .submitbox .submitcancel:hover {
+	background: #0073aa;
+	color: #fff;
+}
+
+.nav-menus-php .major-publishing-actions .form-invalid {
+	padding-top: 4px;
+	margin-top: -4px;
+}
+
+/* Clearfix */
+#menu-item-name-wrap:after,
+#menu-item-url-wrap:after,
+#menu-name-label:after,
+#menu-settings-column .inside:after,
+#nav-menus-frame:after,
+.nav-menus-php #post-body-content:after,
+.nav-menus-php .button-controls:after,
+.nav-menus-php .major-publishing-actions:after,
+.nav-menus-php .menu-item-settings:after {
+	clear: both;
+	content: ".";
+	display: block;
+	width: 0;
+	visibility: hidden;
+}
+
+#nav-menus-frame,
+.button-controls,
+#menu-item-url-wrap,
+#menu-item-name-wrap {
+	display: block;
+}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+
+@media only screen and (min-height: 769px) and (max-height: 1000px){
+	body.menu-max-depth-0 {
+		min-height: 0 !important;
+	}
+
+	#menu-management-liquid{
+		height: 100%;
+	}
+
+	.nav-menus-php #post-body-content{
+		min-height: 0;
+	}
+
+	.menu-item-bar .menu-item-handle{
+		height: 90%;
+	}
+}
+
+@media screen and ( max-height: 782px ) {
+	body.nav-menus-php {
+		min-height: 0 !important;
+	}
+
+	#nav-menus-frame {
+		margin-top: 0;
+		float: none;
+		height: 100%;
+	}
+
+	#wpbody-content #menu-settings-column {
+		display: block;
+		height: 100%;
+		float: none;
+		margin-top: 0;
+	}
+
+	#side-sortables .add-menu-item-tabs {
+		margin: 0 14px 0 15px;
+	}
+
+	ul.add-menu-item-tabs li.tabs {
+		padding: 15px 14px 15px 13px;
+	}
+
+	.nav-menus-php .item-controls .item-type {
+		margin-left: 2px;
+	}
+
+	.nav-menus-php .customlinkdiv .howto input {
+		height: 65%;
+	}
+
+	.nav-menus-php .quick-search {
+		height: 85%;
+	}
+
+	#menu-management-liquid {
+		margin-left: 25px;
+	}
+
+	.nav-menus-php .menu-name-label.howto span {
+		margin-left: 13px
+	}
+
+	.menu-name-label #menu-name {
+		margin-left: 4px;
+	}
+
+	.nav-menus-php .major-publishing-actions .publishing-action {
+		margin-left: 6px;
+	}
+
+	.nav-menus-php .delete-action {
+		font-size: 14px;
+		line-height: 50px;
+		margin-left: 12px;
+	}
+
+	.menu-item-bar .menu-item-handle,
+	.menu-item-settings,
+	.description-wide {
+		height: auto;
+	}
+
+	.menu-item-settings {
+		padding: 10px;
+	}
+
+	.menu-item-settings .description-thin,
+	.menu-item-settings .description-wide {
+		height: 100%;
+	}
+
+	.menu-item-settings input {
+		height: 100%;
+	}
+
+	.menu-item-settings input[type="checkbox"],
+	.menu-item-settings input[type="radio"] {
+		height: 25px;
+	}
+
+	.menu-settings dl {
+		padding-top: 0;
+	}
+
+	.menu-settings dd {
+		float: none;
+		height: 100%;
+		margin-right: 15px;
+	}
+
+	.menu-settings dt {
+		float: none;
+		height: auto;
+		margin-top: 0;
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-height: 768px) {
+	/* menu locations */
+	#menu-locations-wrap .widefat {
+		height: 100%;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    html[lang="mn-mong"] input[type="text"],
+    html[lang="mn-mong"] input[type="submit"],
+    html[lang="mn-mong"] button,
+    html[lang="mn-mong"] input[type="password"],
+    html[lang="mn-mong"] textarea{
+        display: table-cell;
+        border-radius: 0;
+    }
+    
+    .button.right, .button-secondary.right, .button-primary.right,
+    .add-to-menu {
+	    float: none;
+    }
+    html[lang="mn-mong"] .postbox .howto input,
+    html[lang="mn-mong"] .accordion-container .howto input {
+        height: 100%;
+        float: none;
+    }
+}

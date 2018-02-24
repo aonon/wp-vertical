@@ -1,0 +1,37 @@
+/*------------------------------------------------------------------------------
+  28.0 - Site Icon
+------------------------------------------------------------------------------*/
+
+.site-icon-preview .favicon-preview {
+	margin: 0 20px 0 5px;
+	overflow: hidden;
+	position: relative;
+	max-height: 180px;
+}
+
+.site-icon-preview .favicon,
+.site-icon-preview .browser-title {
+	width: 16px;
+	top: 88px;
+	overflow: hidden;
+	position: absolute;
+	left: 16px;
+}
+
+.site-icon-preview .favicon {
+	height: 16px;
+}
+
+.site-icon-preview .browser-title {
+	top: 109px;
+}
+
+.site-icon-preview .app-icon-preview {
+	background-color: #000;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+	width: 64px;
+	overflow: hidden;
+	height: 64px;
+	margin-left: 5px;
+}

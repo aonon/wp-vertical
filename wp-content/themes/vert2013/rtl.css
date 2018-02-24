@@ -1,0 +1,766 @@
+/*
+Theme Name: Twenty Thirteen
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 4.0 - Header
+ *   4.1 - Site Header
+ *   4.2 - Navigation
+ * 5.0 - Content
+ *   5.2 - Entry Meta
+ *   5.4 - Galleries
+ *   5.5 - Post Formats
+ *   5.6 - Attachments
+ *   5.7 - Post/Paging Navigation
+ *   5.8 - Author Bio
+ *   5.9 - Archives
+ *   5.10 - Search Results/No posts
+ *   5.12 - Comments
+ * 6.0 - Sidebar
+ *   6.1 - Widgets
+ * 7.0 - Footer
+ * 8.0 - Media Queries
+ * 9.0 - Print
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Reset
+ * ----------------------------------------------------------------------------
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+a {
+	display: inline-block;
+}
+
+blockquote blockquote {
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+menu,
+ol,
+ul {
+	padding: 0 0 40px 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+td {
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+.assistive-text:focus {
+	top: auto;
+	bottom: 5px;
+}
+
+
+/**
+ * 4.0 Header
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 4.1 Site Header
+ * ----------------------------------------------------------------------------
+ */
+
+.site-header > a:first-child {
+	display: inherit;
+}
+
+.site-description {
+	font-style: normal;
+}
+
+
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+/* Navbar */
+ul.nav-menu,
+div.nav-menu > ul {
+	margin: 0 0 -20px 0;
+	padding: 40px 0 0 0;
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	float: right;
+	top: auto;
+	bottom: -2px;
+}
+
+.nav-menu .sub-menu ul,
+.nav-menu .children ul {
+	border-top: 2px solid #f7f5e7;
+	border-bottom: 0;
+	top: auto;
+	bottom: 100%;
+}
+
+.main-navigation .search-form {
+	top: 0;
+	bottom: auto;
+}
+
+.site-header .search-field {
+	background-position: center 98%;
+	padding: 0 0 34px 0;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	font-style: normal;
+}
+
+.menu-toggle {
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+
+
+/**
+ * 5.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+.sidebar .entry-header,
+.sidebar .entry-content,
+.sidebar .entry-summary,
+.sidebar .entry-meta {
+	padding-top: 376px;
+	padding-bottom: 60px;
+}
+
+
+/**
+ * 5.2 Entry Meta
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-meta > span {
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+
+.entry-meta > span:last-child {
+	margin-top: 0;
+	margin-bottom: auto;
+}
+
+.featured-post:before {
+	margin-top: 2px;
+	margin-bottom: auto;
+}
+
+.entry-meta .date a:before {
+	margin-top: 2px;
+}
+
+.comments-link a:before {
+	margin-top: 2px;
+	margin-bottom: auto;
+}
+
+.tags-links a:first-child:before {
+	margin-top: 2px;
+}
+
+.edit-link a:before {
+	margin-top: 2px;
+}
+
+.page-links .page-links-title {
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+
+/**
+ * 5.4 Galleries
+ * ----------------------------------------------------------------------------
+ */
+
+.gallery {
+	margin-top: auto;
+	margin-bottom: -4px;
+}
+
+.gallery-item {
+	float: right;
+	margin: 4px 4px 0 0;
+}
+
+.gallery-item a {
+	display: inline;
+}
+
+
+/**
+ * 5.5 Post Formats
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-content a {
+	display: inline;
+}
+
+.format-aside cite:before {
+	content: normal;
+	margin-bottom: auto;
+}
+
+.format-aside cite:after {
+	content: "\2014";
+	margin-top: 5px;
+}
+
+.format-audio .entry-content:before {
+	float: right;
+	-webkit-transform: scaleX(-1);
+	-moz-transform:    scaleX(-1);
+	-ms-transform:     scaleX(-1);
+	-o-transform:      scaleX(-1);
+	transform:         scaleX(-1);
+}
+
+.format-audio .audio-content {
+	background-position: top right;
+	float: left;
+	padding-top: 0;
+	padding-bottom: 35px;
+}
+
+.format-chat .entry-meta .date a:before {
+	margin-top: 4px;
+	margin-bottom: auto;
+}
+
+.format-image .wp-caption-text {
+	text-align: right;
+}
+
+.format-link .entry-title {
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+
+.format-status .entry-content,
+.format-status .entry-meta {
+	padding-top: 0;
+	padding-bottom: 35px;
+}
+
+.sidebar .format-status .entry-content,
+.sidebar .format-status .entry-meta {
+	padding-top: 376px;
+	padding-bottom: 95px;
+}
+
+.format-status .entry-content:before,
+.format-status .entry-meta:before {
+	top: auto;
+	bottom: 10px;
+}
+
+.sidebar .format-status .entry-content:before,
+.sidebar .format-status .entry-meta:before {
+	top: auto;
+	bottom: 70px;
+}
+
+.format-status .entry-content p:first-child:before {
+	top: auto;
+	bottom: 4px;
+}
+
+.sidebar .format-status .entry-content p:first-child:before {
+	top: auto;
+	bottom: 64px;
+}
+
+.format-quote blockquote {
+	padding-top: 0;
+	padding-bottom: 75px;
+}
+
+.format-quote blockquote:before {
+	content: '\201D';
+	padding-top: 25px;
+	padding-bottom: 0;
+	top: auto;
+	bottom: -15px;
+}
+
+
+/**
+ * 5.6 Attachments
+ * ----------------------------------------------------------------------------
+ */
+
+.attachment .entry-title {
+	float: right;
+}
+
+.attachment .entry-title:before {
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+
+.attachment .entry-meta {
+	float: left;
+}
+
+.image-navigation .nav-previous {
+	top: auto;
+	bottom: 0;
+}
+
+.image-navigation .nav-next {
+	top: 0;
+	bottom: auto;
+}
+
+.attachment .entry-caption {
+	text-align: right;
+}
+
+
+/**
+ * 5.7 Post/Paging Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+.navigation .nav-previous {
+	float: right;
+}
+
+.navigation .nav-next {
+	float: left;
+}
+
+.sidebar .paging-navigation .nav-links,
+.sidebar .post-navigation .nav-links {
+	padding-top: 376px;
+	padding-bottom: 60px;
+}
+
+.paging-navigation .nav-previous .meta-nav {
+	margin-top: 10px;
+	margin-bottom: auto;
+}
+
+.paging-navigation .nav-next .meta-nav {
+	margin-top: auto;
+	margin-bottom: 10px;
+}
+
+.post-navigation a[rel="next"] {
+	float: left;
+	text-align: left;
+}
+
+
+/**
+ * 5.8 Author Bio
+ * ----------------------------------------------------------------------------
+ */
+
+.author-info {
+	text-align: right; /* gallery & video post formats */
+}
+
+.author.sidebar .author-info {
+	padding-top: 376px;
+	padding-bottom: 60px;
+}
+
+.author-avatar .avatar {
+	float: right;
+	margin: 30px 30px 0 0;
+}
+
+.author-link {
+	margin-top: auto;
+	margin-bottom: 2px;
+}
+
+
+/**
+ * 5.9 Archives
+ * ----------------------------------------------------------------------------
+ */
+
+.sidebar .archive-meta {
+	padding-top: 316px;
+	padding-bottom: 0;
+}
+
+
+/**
+ * 5.10 Search Results/No posts
+ * ----------------------------------------------------------------------------
+ */
+
+.sidebar .page-content {
+	padding-top: 376px;
+	padding-bottom: 60px;
+}
+
+/**
+ * 5.12 Comments
+ * ----------------------------------------------------------------------------
+ */
+
+.sidebar .comments-title,
+.sidebar .comment-list,
+.sidebar .comment-reply-title,
+.sidebar .comment-navigation,
+.sidebar .comment-respond .comment-form {
+	padding-top: 376px;
+	padding-bottom: 60px;
+}
+
+.comment-list .children {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+.comment-author {
+	float: right;
+	margin-top: 50px;
+	margin-bottom: auto;
+}
+
+.comment-list .edit-link {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+.comment-metadata,
+.comment-content,
+.comment-list .reply,
+.comment-awaiting-moderation {
+	float: left;
+}
+
+.comment-awaiting-moderation:before {
+	margin-top: 5px;
+	margin-bottom: auto;
+}
+
+.comment-reply-link:before,
+.comment-reply-login:before {
+	margin-top: 3px;
+	margin-bottom: auto;
+	-webkit-transform: scaleX(-1);
+	-moz-transform:    scaleX(-1);
+	-ms-transform:     scaleX(-1);
+	-o-transform:      scaleX(-1);
+	transform:         scaleX(-1);
+}
+
+.comment-reply-title small a {
+	float: left;
+}
+
+.comment-form [for="author"],
+.comment-form [for="email"],
+.comment-form [for="url"],
+.comment-form [for="comment"] {
+	float: right;
+}
+
+.form-allowed-tags code {
+	margin-top: auto;
+	margin-bottom: 3px;
+}
+
+.sidebar .no-comments {
+	padding-top: 376px;
+	padding-bottom: 60px;
+}
+
+
+/**
+ * 6.0 Sidebar
+ * ----------------------------------------------------------------------------
+ */
+
+.site-main .widget-area {
+	float: left;
+}
+
+.widget-area a {
+	max-height: 100%;
+}
+
+
+/**
+ * 6.1 Widgets
+ * ----------------------------------------------------------------------------
+ */
+
+.widget .widget-title {
+	font-style: normal;
+}
+
+.widget li > ul,
+.widget li > ol {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+/**
+ * 7.0 Footer
+ * ----------------------------------------------------------------------------
+ */
+
+.site-footer .widget-area,
+.sidebar .site-footer {
+	text-align: right;
+}
+.sidebar .site-footer .widget-area {
+	top: auto;
+	bottom: -158px;
+}
+
+.site-footer .widget {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+
+.sidebar .site-footer .widget:nth-of-type(4),
+.sidebar .site-footer .widget:nth-of-type(3) {
+	margin-top: 0;
+	margin-bottom: auto;
+}
+
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+@media (max-height: 1069px) {
+	ul.nav-menu,
+	div.nav-menu > ul {
+		margin-top: auto;
+		margin-bottom: 0;
+	}
+
+	.error404 .page-header,
+	.sidebar .format-image .entry-content img.size-full,
+	.sidebar .format-image .wp-caption:first-child .wp-caption-text {
+		margin-bottom: auto;
+	}
+
+	.main-navigation .search-form {
+		top: 20px;
+		bottom: auto;
+	}
+
+	.site-main .widget-area {
+		margin-top: 60px;
+		margin-bottom: auto;
+	}
+}
+
+@media (max-height: 999px) {
+	.sidebar .entry-header,
+	.sidebar .entry-content,
+	.sidebar .entry-summary,
+	.sidebar .entry-meta,
+	.sidebar .comment-list,
+	.sidebar .comment-reply-title,
+	.sidebar .comment-navigation,
+	.sidebar .comment-respond .comment-form,
+	.sidebar .featured-gallery,
+	.sidebar .post-navigation .nav-links,
+	.author.sidebar .author-info,
+	.sidebar .format-image .entry-content {
+		max-height: 604px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.site-main .widget-area {
+		float: none;
+		margin-top: auto;
+	}
+
+	.attachment .entry-meta {
+		float: right;
+		text-align: right;
+	}
+
+	.sidebar .format-status .entry-content,
+	.sidebar .format-status .entry-meta {
+		padding-top: 0;
+		padding-bottom: 35px;
+	}
+
+	.sidebar .format-status .entry-content:before,
+	.sidebar .format-status .entry-meta:before {
+		top: auto;
+		bottom: 10px;
+	}
+
+	.sidebar .format-status .entry-content p:first-child:before {
+		top: auto;
+		bottom: 4px;
+	}
+
+	.sidebar .site-footer .widget-area {
+		top: auto;
+		bottom: 0;
+	}
+
+	.sidebar .paging-navigation .nav-links {
+		padding: 60px 0;
+	}
+}
+
+@media (max-height: 767px) {
+	.format-image .entry-content img:first-of-type,
+	.format-image .wp-caption:first-child .wp-caption-text {
+		margin-bottom: auto;
+	}
+}
+
+@media (max-height: 643px) {
+	.sidebar .entry-header,
+	.sidebar .entry-content,
+	.sidebar .entry-summary,
+	.sidebar .entry-meta,
+	.sidebar .comment-list,
+	.sidebar .comment-navigation,
+	.sidebar .featured-gallery,
+	.sidebar .post-navigation .nav-links,
+	.sidebar .format-image .entry-content {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#content .format-status .entry-content,
+	#content .format-status .entry-met {
+		padding-top: 0;
+		padding-bottom: 35px;
+	}
+
+	.menu-toggle:after {
+		padding-top: 0;
+		padding-bottom: 8px;
+	}
+
+	.toggled-on .nav-menu,
+	.toggled-on .nav-menu > ul {
+		margin-top: auto;
+		margin-bottom: 0;
+	}
+
+	.toggled-on .nav-menu li > ul {
+		margin-top: auto;
+		margin-bottom: 20px;
+		bottom: auto;
+	}
+
+	#content .featured-gallery {
+		padding-top: 0;
+		padding-bottom: 24px;
+	}
+
+	.gallery-columns-1 .gallery-item {
+		margin-top: 0;
+		margin-bottom: auto;
+	}
+
+	.comment-author {
+		margin-top: 30px;
+		margin-bottom: auto;
+	}
+
+	.format-audio .audio-content {
+		background: none;
+		float: none;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.gallery-columns-3 .gallery-item:nth-of-type(3n) {
+		margin-top: 4px;
+		margin-bottom: auto;
+	}
+}
+
+@media (max-height: 359px) {
+	.gallery {
+		margin-top: auto;
+		margin-bottom: 0;
+	}
+
+	.gallery .gallery-item:nth-of-type(even) {
+		margin-top: 0;
+		margin-bottom: auto;
+	}
+
+	.gallery .gallery-item,
+	.gallery.gallery-columns-3 .gallery-item:nth-of-type(even),
+	.gallery-columns-3 .gallery-item:nth-of-type(3n),
+	.gallery-columns-5 .gallery-item:nth-of-type(5n),
+	.gallery-columns-7 .gallery-item:nth-of-type(7n),
+	.gallery-columns-9 .gallery-item:nth-of-type(9n) {
+		margin-top: 4px;
+		margin-bottom: auto;
+	}
+
+	.comment-author .avatar {
+		margin-top: 5px;
+		margin-bottom: auto;
+	}
+}
+
+
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+@media print {
+	.entry-content img.alignleft,
+	.entry-content .wp-caption.alignleft {
+		margin-top: auto;
+		margin-bottom: 0;
+	}
+
+	.entry-content img.alignright,
+	.entry-content .wp-caption.alignright {
+		margin-top: 0;
+		margin-bottom: auto;
+	}
+}
